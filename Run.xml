@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Sanitysuite" thread-count="1" verbose="3">
+
+	<test name="LoginScenario">
+	
+		<classes>
+		
+			<class name="emps.EmpsTestCaseHomepage">
+			
+			
+			</class>
+			<class name="emps.EmpsTestCaseLoginPage"></class>
+		</classes>
+	</test>
+
+</suite>
